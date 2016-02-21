@@ -1,7 +1,5 @@
 package src.main;
 
-import src.Tree;
-
 /**
  * Created by Panos on 21-Feb-16.
  */

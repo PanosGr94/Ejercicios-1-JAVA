@@ -1,4 +1,4 @@
-package src;
+package src.main;
 
 /**
  * Created by Panos on 21-Feb-16.
