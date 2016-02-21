@@ -11,7 +11,7 @@ public class AppInheritance {
         shapes[0] = new Circle(2.5);
         shapes[1] = new Rectangle(3,5);
         for( Shape shape : shapes)
-            System.out.println(shape + "with area = " +shape.area());
+            System.out.println(shape.Shape() + "with area = " +shape.area());
 
     }
 }
