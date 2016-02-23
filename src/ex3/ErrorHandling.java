@@ -19,9 +19,8 @@ public class ErrorHandling {
         Scanner scan = new Scanner(System.in);
 
 
-// TODO: 22-Feb-16 Erase desktop suffix
         System.out.print("Please Enter The Path Of The Text File:");
-        String filePath = "C:/Users/Panos/Desktop/" + scan.nextLine();
+        String filePath = scan.nextLine();
 
         File file = new File(filePath);
         Scanner newscan = new Scanner(file);
